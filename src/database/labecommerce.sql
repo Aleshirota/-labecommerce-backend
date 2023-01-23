@@ -159,3 +159,5 @@ VALUES
     ON purchases_products.purchase_id = purchases.id
      INNER JOIN products
     ON purchases_products.product_id = products.id;
+
+    
